@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build and Publish Website') {
             agent{
-                label 'slave-2'
+                label 'slave2'
             }
             when {
                 branch 'develop'
